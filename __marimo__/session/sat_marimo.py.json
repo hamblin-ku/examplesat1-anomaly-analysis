@@ -7,7 +7,7 @@
   "cells": [
     {
       "id": "Hbol",
-      "code_hash": "2dbe04707986ffbf656ca5889690f980",
+      "code_hash": "28412360a5d76c37b8b6c88d65be768e",
       "outputs": [
         {
           "type": "data",
@@ -19,21 +19,21 @@
       "console": []
     },
     {
-      "id": "FlsV",
+      "id": "MJUe",
       "code_hash": "022b0d39eedb1f493f4037ee9b94b58b",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='FlsV-0' random-id='5cf270b4-3c43-c6a1-2252-e4c0f8bf1790'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:1000.0,&#92;&quot;Longitude&#92;&quot;:1000.0,&#92;&quot;Altitude_km&#92;&quot;:980.0,&#92;&quot;Solar_Current_A&#92;&quot;:1000.0},{&#92;&quot;&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:1.2342307000000001,&#92;&quot;Longitude&#92;&quot;:0.5053796999999995,&#92;&quot;Altitude_km&#92;&quot;:504.65527551020415,&#92;&quot;Solar_Current_A&#92;&quot;:2.5167},{&#92;&quot;&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:34.93630552173077,&#92;&quot;Longitude&#92;&quot;:103.38170062485682,&#92;&quot;Altitude_km&#92;&quot;:14.190780150955758,&#92;&quot;Solar_Current_A&#92;&quot;:3.651481566108178},{&#92;&quot;&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:-51.5933,&#92;&quot;Longitude&#92;&quot;:-179.8277,&#92;&quot;Altitude_km&#92;&quot;:485.01,&#92;&quot;Solar_Current_A&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:-31.8056,&#92;&quot;Longitude&#92;&quot;:-87.810775,&#92;&quot;Altitude_km&#92;&quot;:490.2,&#92;&quot;Solar_Current_A&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:2.4528,&#92;&quot;Longitude&#92;&quot;:1.9275,&#92;&quot;Altitude_km&#92;&quot;:504.73,&#92;&quot;Solar_Current_A&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:34.9423,&#92;&quot;Longitude&#92;&quot;:88.679375,&#92;&quot;Altitude_km&#92;&quot;:518.65,&#92;&quot;Solar_Current_A&#92;&quot;:5.369999999999999},{&#92;&quot;&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:51.5933,&#92;&quot;Longitude&#92;&quot;:179.4985,&#92;&quot;Altitude_km&#92;&quot;:525.0,&#92;&quot;Solar_Current_A&#92;&quot;:10.37}]&quot;' data-total-rows='8' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Latitude&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Longitude&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Altitude_km&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Solar_Current_A&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='MJUe-0' random-id='3c41d9df-5537-fa67-78d0-f1308f2952e8'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;&#92;&quot;:&#92;&quot;count&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:1000.0,&#92;&quot;Longitude&#92;&quot;:1000.0,&#92;&quot;Altitude_km&#92;&quot;:980.0,&#92;&quot;Solar_Current_A&#92;&quot;:1000.0},{&#92;&quot;&#92;&quot;:&#92;&quot;mean&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:1.2342307000000001,&#92;&quot;Longitude&#92;&quot;:0.5053796999999995,&#92;&quot;Altitude_km&#92;&quot;:504.65527551020415,&#92;&quot;Solar_Current_A&#92;&quot;:2.5167},{&#92;&quot;&#92;&quot;:&#92;&quot;std&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:34.93630552173077,&#92;&quot;Longitude&#92;&quot;:103.38170062485682,&#92;&quot;Altitude_km&#92;&quot;:14.190780150955758,&#92;&quot;Solar_Current_A&#92;&quot;:3.651481566108178},{&#92;&quot;&#92;&quot;:&#92;&quot;min&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:-51.5933,&#92;&quot;Longitude&#92;&quot;:-179.8277,&#92;&quot;Altitude_km&#92;&quot;:485.01,&#92;&quot;Solar_Current_A&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;25%&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:-31.8056,&#92;&quot;Longitude&#92;&quot;:-87.810775,&#92;&quot;Altitude_km&#92;&quot;:490.2,&#92;&quot;Solar_Current_A&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;50%&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:2.4528,&#92;&quot;Longitude&#92;&quot;:1.9275,&#92;&quot;Altitude_km&#92;&quot;:504.73,&#92;&quot;Solar_Current_A&#92;&quot;:0.0},{&#92;&quot;&#92;&quot;:&#92;&quot;75%&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:34.9423,&#92;&quot;Longitude&#92;&quot;:88.679375,&#92;&quot;Altitude_km&#92;&quot;:518.65,&#92;&quot;Solar_Current_A&#92;&quot;:5.369999999999999},{&#92;&quot;&#92;&quot;:&#92;&quot;max&#92;&quot;,&#92;&quot;Latitude&#92;&quot;:51.5933,&#92;&quot;Longitude&#92;&quot;:179.4985,&#92;&quot;Altitude_km&#92;&quot;:525.0,&#92;&quot;Solar_Current_A&#92;&quot;:10.37}]&quot;' data-total-rows='8' data-total-columns='4' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='false' data-page-size='10' data-field-types='[[&quot;Latitude&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Longitude&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Altitude_km&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;Solar_Current_A&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[[&quot;&quot;,[&quot;string&quot;,&quot;str&quot;]]]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
           }
         }
       ],
       "console": []
     },
     {
-      "id": "igZF",
-      "code_hash": "bd9401acc0fda6bd586cecca6afae3fa",
+      "id": "vblA",
+      "code_hash": "2715e5a6252b85043551b4145e5a17d2",
       "outputs": [
         {
           "type": "data",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "id": "aPBM",
+      "id": "bkHC",
       "code_hash": "7df5cf05eedba6bb1439ac85141efa32",
       "outputs": [
         {
@@ -72,8 +72,8 @@
       ]
     },
     {
-      "id": "nUtA",
-      "code_hash": "3ea10edfe6657bef7d690b915ada269d",
+      "id": "lEQa",
+      "code_hash": "451f94d5e181c8eba4270667baf715f8",
       "outputs": [
         {
           "type": "data",
@@ -92,8 +92,8 @@
       ]
     },
     {
-      "id": "woAo",
-      "code_hash": "660d3c35b5c733f72765a65a4ec80eba",
+      "id": "PKri",
+      "code_hash": "43faf4c10c4209a9e6fb7935ee03d9d4",
       "outputs": [
         {
           "type": "data",
@@ -118,8 +118,8 @@
       ]
     },
     {
-      "id": "yKiS",
-      "code_hash": "5d00fff5c84b139b6ef08afa6a7c2b6a",
+      "id": "Xref",
+      "code_hash": "8091655fc0c09e8c9b2012f5605ca702",
       "outputs": [
         {
           "type": "data",
@@ -144,7 +144,7 @@
       ]
     },
     {
-      "id": "STxR",
+      "id": "SFPL",
       "code_hash": "5d815959527030edb9a27055de1f65ce",
       "outputs": [
         {
@@ -157,8 +157,8 @@
       "console": []
     },
     {
-      "id": "OduI",
-      "code_hash": "76558ab8a62796881b94a729e4999df0",
+      "id": "BYtC",
+      "code_hash": "3fb54acb3d8998a2425f5b825921f67c",
       "outputs": [
         {
           "type": "data",
@@ -177,8 +177,8 @@
       ]
     },
     {
-      "id": "tKCd",
-      "code_hash": "e6fb795ebea159a62440b3b1095a400b",
+      "id": "RGSE",
+      "code_hash": "858beb033cc4ba5439c57dcce266051a",
       "outputs": [
         {
           "type": "data",
@@ -197,8 +197,8 @@
       ]
     },
     {
-      "id": "VKGY",
-      "code_hash": "960c7161a99ba4cda194610c0c9d3eb2",
+      "id": "Kclp",
+      "code_hash": "560a709bb09d866cf8b97068b20158f3",
       "outputs": [
         {
           "type": "data",
@@ -217,7 +217,7 @@
       ]
     },
     {
-      "id": "EWUY",
+      "id": "emfo",
       "code_hash": null,
       "outputs": [],
       "console": []

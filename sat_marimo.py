@@ -15,6 +15,7 @@ def _():
     import netCDF4 as nc
     import glob
     import cartopy.feature as cfeature
+    import marimo as mo
 
     # use my matplotlib params
     import my_params 
@@ -64,9 +65,10 @@ def _(box, ccrs, cfeature, df, plt):
 
         ax.set_extent([-180, 180, -62, 62], crs=ccrs.PlateCarree())
 
-        plt.show()
+        return fig
 
         #fig.savefig('plots/ground_path_whole.png', dpi = 200, bbox_inches='tight')
+
     whole_ground_path()
     return
 
@@ -131,7 +133,7 @@ def _(box, ccrs, cfeature, df, df_anomaly, plt):
                    bbox=dict(facecolor='white', edgecolor='black', boxstyle='round,pad=0.5'))
         ax.set_aspect('equal')
 
-        plt.show()
+        return fig
         #fig.savefig('plots/ground_path_zoom.png', dpi = 200,bbox_inches='tight')
 
     zoom_ground_path()
@@ -195,9 +197,7 @@ def _(DateFormatter, df_anomaly, np, pd, plt):
 
         ax[1].axvline(x = volt_anomaly['Timestamp'], ymin = 0, ymax = 100, c = 'k', ls = ':', alpha= 0.6)
         ax[0].axvline(x = volt_anomaly['Timestamp'], ymin = 0, ymax = 12, c = 'k', ls = ':', alpha= 0.6)
-        plt.show()
-
-        plt.show()
+        return fig
         #fig.savefig('plots/battery_current.png', dpi = 200,bbox_inches='tight')
     power_system_plots()
     return
@@ -216,7 +216,7 @@ def _(DateFormatter, df, plt):
         plt.xticks(rotation=45, ha='right')
         ax.xaxis.set_major_locator(plt.MaxNLocator(10))
         ax.xaxis.set_major_formatter(DateFormatter('%m-%d %H:%M'))
-        plt.show()
+        return fig
     plot_altitude()
     return
 
@@ -305,7 +305,7 @@ def _(DateFormatter, hourly_df, pd, plt):
 
 
         #fig.savefig('plots/elec_fluxes.png', dpi = 200,bbox_inches='tight')
-        plt.show()
+        return fig
     electron_proton_plot()
     return
 
@@ -378,7 +378,7 @@ def _(DateFormatter, E1_corr, hourly_df, mag_df, pd, plt):
         ax.legend(h1 + h2, l1 + l2, loc='upper left', fontsize =12, frameon = True, fancybox = False, framealpha = 1, edgecolor = 'k')
 
         #fig.savefig('plots/geo_indices.png', dpi = 200,bbox_inches='tight')
-        plt.show()
+        return fig
 
     geomagnetic_plot()
     return
